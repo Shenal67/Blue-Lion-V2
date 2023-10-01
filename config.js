@@ -3,20 +3,20 @@ const fs = require('fs-extra')
   
   
  //═══════[Required Variables]════════\\ 
- global.owner = process.env.OWNER_NUMBER.split(",") 
+ global.owner = process.env.OWNER_NUMBER.split("94710604288") 
  global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority" 
  global.port= process.env.PORT || 5000 
  global.email = 'sam@secktor.live' 
  global.github = 'https://github.com/nipuna15' 
  global.location = 'Sri lanka, Monaragala' 
  global.gurl = 'https://instagram.com/' // add your username 
- global.sudo = process.env.SUDO || '94706540311' 
- global.devs = '94706540311'; 
+ global.sudo = process.env.SUDO || '94710604288' 
+ global.devs = '94710604288'; 
  global.website = 'https://github.com/nipuna15/Blue-Lion-V2' //wa.me/+91000000000000 
  global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/nipuna15/nipuna15/main/IMG-20230613-WA0008.jpg' 
  module.exports = { 
    botname:   process.env.BOT_NAME === undefined ? 'Blue-Lion' : process.env.BOT_NAME, 
-   ownername: process.env.OWNER_NAME === undefined ? 'nipuna' : process.env.OWNER_NAME,  
+   ownername: process.env.OWNER_NAME === undefined ? 'shenal' : process.env.OWNER_NAME,  
    author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'Nipuna' : process.env.PACK_INFO.split(";")[0], 
    auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS, 
    packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'Blue-lion' : process.env.PACK_INFO.split(";")[1],
